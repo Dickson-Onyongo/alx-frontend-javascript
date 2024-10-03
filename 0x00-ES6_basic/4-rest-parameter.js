@@ -1,3 +1,3 @@
 export default function returnHowManyArguments(...restPar) {
-    return (restPar.length);
-};
+  return (restPar.length);
+}
