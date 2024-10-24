@@ -1,4 +1,4 @@
-export default function weakMap () { new WeakMap()};
+export default function weakMap() { WeakMap(); }
 
 export const queryAPI = (endpoint) => {
   if (weakMap.has(endpoint)) {
